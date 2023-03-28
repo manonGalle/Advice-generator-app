@@ -1,0 +1,28 @@
+.Quote {
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #313a49;
+
+    &-circle-dice {
+        position:absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: #51fda9;
+    }
+
+    &-dice {
+        width: 20px;
+        position: relative;
+        top: 10px;
+    }
+}
+
+h1 {
+    color: #51fda9;
+}
+
+p {
+    color :#c0d4da;
+}

@@ -1,13 +1,13 @@
 
-import './App.css';
+import './App.scss';
 import Quote from './Quote/Quote';
 
 function App() {
   return (
     <div className="App">
-
-      <Quote/>
-      
+      <div className='App-Quote'>
+        <Quote/>
+      </div>
     </div>
   );
 }
