@@ -1,0 +1,46 @@
+.Quote {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #313a49;
+    padding: 30px;
+    position: absolute;
+
+    &-circle-dice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        top: 190px;
+        left: 235px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: #51fda9;
+    }
+
+    &-dice {
+        width: 20px;
+        position: relative;
+    }
+}
+
+h1 {
+    color: #51fda9;
+    font-size: small;
+    font-weight: lighter;
+}
+
+p {
+    color :#c0d4da;
+    font-weight: bold;
+    font-size: large;
+}
+
+button {
+    border:none;
+}
+
+span {
+    transform: rotate(90deg);
+}
