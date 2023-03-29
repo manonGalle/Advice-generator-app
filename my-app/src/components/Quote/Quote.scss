@@ -1,18 +1,19 @@
 .Quote {
-    width: 500px;
-    height: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    position: relative;
+    width: 50%;
+    height: 30%;
     border-radius: 10px;
     background-color: #313a49;
     padding: 30px;
-    position: absolute;
 
     &-circle-dice {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position:relative;
-        top: 190px;
-        left: 235px;
+        position:absolute;
+        bottom: -25px;
+        left: 50%;
+        transform: translate(-50%);
         width: 40px;
         height: 40px;
         border-radius: 50px;
@@ -21,26 +22,22 @@
 
     &-dice {
         width: 20px;
-        position: relative;
     }
 }
 
 h1 {
     color: #51fda9;
     font-size: small;
-    font-weight: lighter;
+    font-weight: 800px;
 }
 
 p {
     color :#c0d4da;
     font-weight: bold;
-    font-size: large;
+    font-size: 28px;
+    //padding: 15px;
 }
 
 button {
     border:none;
-}
-
-span {
-    transform: rotate(90deg);
 }
