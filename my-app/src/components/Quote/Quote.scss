@@ -35,9 +35,19 @@ p {
     color :#c0d4da;
     font-weight: bold;
     font-size: 28px;
-    //padding: 15px;
 }
 
 button {
     border:none;
+}
+
+@media (max-width: 375px) {
+    .Quote {
+        width: 30%;
+        height: 40%;
+    }
+
+    p {
+        font-size: 20px;
+    }
 }
