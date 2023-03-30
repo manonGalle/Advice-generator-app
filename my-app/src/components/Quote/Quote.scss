@@ -18,6 +18,10 @@
         height: 40px;
         border-radius: 50px;
         background-color: #51fda9;
+        transition: box-shadow 0.3 ease-in-out;
+    }
+    &-circle-dice:hover {
+        box-shadow: 0 0 20px 5px hsl(150, 100%, 66%);
     }
 
     &-dice {
